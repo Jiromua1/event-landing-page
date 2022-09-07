@@ -23,26 +23,26 @@
     
 </head>
 <body>
-    <nav> 
-        <div class="d-flex">
-            <div class="ms-5 p-3 d-flex align-items-start"><h3> moqups</h3></div>
-            <div class="me-5 p-3 d-flex align-items-end">Venue</div> 
-            <div class="p-3 d-flex align-items-end">Tickets</div> 
-            <div class="p-3 d-flex align-items-end">Speakers</div>
-        </div> 
-    </nav>
-
-    <main> 
-    
         <header>
-            <div class="text-center p-5"> 
+            <nav> 
+                <nav class="navbar navbar-expand navbar-light">
+                    <div class="ms-5 p-3 d-flex align-items-start"><h3> moqups</h3></div>
+                    <div class="me-5 p-3 d-flex align-items-end">Venue</div> 
+                    <div class="p-3 d-flex align-items-end">Tickets</div> 
+                    <div class="p-3 d-flex align-items-end">Speakers</div>
+                </div> 
+            </nav>
+
+            <div class="container-fluid text-center p-5" style="background-image: url(/Week\ 3/event-landing-page/IMG/Sunflower.jpg);"> 
                 <h1>Clear Statement about <br> Your Event</h1>
                 <p class="text-black-50"> Secondary header providing additional information</p>
                 
                 <button type="button" class="btn btn-dark">GET THE TICKET</button>
             </div>
         </header>
-       
+        
+        <main> 
+        <section>
         <body>
             <div class=container>
                 <div class="row 1 text-center p-5">
@@ -86,23 +86,23 @@
                 </div>
             </div>
             <hr>
-
+        </section>
             
             <div class="container text-center p-5"> 
-                <h2>Get Your Ticket Today!</h2>
+                <h2 class="fw-bold mb-4">Get Your Ticket Today!</h2>
                 <br>
-                <p class="text-black-50"> Each ticket includes: 20 speakers, 1000 participants, 15 sessions, 5 keynotes.
+                <p class="text-black-50"> Each ticket includes: <span class="fw-bold">20</span> speakers, <strong>1000</strong> participants,<strong>15</strong> sessions, <strong>5</strong> keynotes.
                 </p>
                 <br>
                 <button type="button" class="btn btn-dark">BUY TICKET $149</button>
             </div>
 
             <hr>
-            
-            <div class="d-flex flex row">
-                <div class="col m-5"> 
-                    <h3> The Venue</h3>
-                    <p> Our event will be held at the Main
+            <section>
+            <div class="container-fluid d-flex">
+                <div style="width: 40%"> 
+                    <h3 class="fw-bold p-5"> The Venue</h3>
+                    <p> Our event will be held at the <strong> Main</strong>
                         <br>
                         Office headquarters at Provost & East
                         <br>
@@ -113,27 +113,24 @@
                     <iframe src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
                     style="border:0" allowfullscreen></iframe>
                 </div>
-                <div class="col float-end">
-                    <img src="/Week 3/event-landing-page/IMG/sky.JPG" class="img-thumbnail" alt="sky" width="304" height="236">
+
+                <div style="width: 40%">
+                    <img src="/Week 3/event-landing-page/IMG/sky.JPG" class="img-fluid" alt="sky">
                 </div>
             </div>
             <hr>
         </body>
-
+    </section>
     </main>
 
-    <footer>
-        <div class="d-flex">
     
-            <div class="float-start m-5">
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-facebook"></a>
-            </div>
-            <div class="float-end"> ©2019</div>
-
-        </div>
-    </footer>
-    
+        <footer class="container-fluid pb-2 px-3 d-flex">
+                <a href="#"class="me-3"><i class="fa fa-twitter"></i></a>
+                <a href="#"class="me-3"><i class="fa fa-instagram"></i></a>
+                <a href="#"class="me-3"><i class="fa fa-facebook"></i></a>
+                
+                <div class="ms-auto">&copy 2019</div>
+        </footer>
+   
 </body>
 </html>
